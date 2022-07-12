@@ -25,9 +25,9 @@ class AuthenticateUser
                 username=sc.nextLine();
                 System.out.println("enter the password:");
                 password=sc.nextLine();
-                if(!username.equals("Lithin"))
+                if(!username.equals("abhi"))
                     throw new AuthUsername("incorrect Username");
-                else if(!password.equals("Lithin"))               
+                else if(!password.equals("abhi"))               
                      throw new  AuthPassword("incorrect password");
                 else
                      System.out.println("\t\t\tlogin successfull......");
